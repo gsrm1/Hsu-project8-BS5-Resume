@@ -804,7 +804,7 @@ $utilities: map-merge(
 
     // custom
     "bg-attachment": (
-      responsive: true,
+      responsive: true,//加上RWD功能
       property: background-attachment,
       class: bg-attachment,
       values: fixed
