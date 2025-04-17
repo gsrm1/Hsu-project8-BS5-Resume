@@ -801,7 +801,10 @@ $utilities: map-merge(
       values: $zindex-levels,
     ),
     // scss-docs-end utils-zindex
+
+    // custom
     "bg-attachment": (
+      responsive: true,
       property: background-attachment,
       class: bg-attachment,
       values: fixed
